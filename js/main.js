@@ -56,7 +56,7 @@ cerrarCarrito.onclick = () => {
 
 async function renderProductos(){
     
-    const infoProductos = await fetch("../assets/productos.json");
+    const infoProductos = await fetch("../js/productos.json");
     const productos = await infoProductos.json();
     guardarProductos(productos);
     const arrayProductos = obtenerProductos();
@@ -77,7 +77,7 @@ async function renderProductos(){
             //HAVANNA
 async function renderProductosHavanna(){
     
-    const infoProductos = await fetch("../assets/productos.json");
+    const infoProductos = await fetch("../js/productos.json");
     const productos = await infoProductos.json();
     guardarProductos(productos);
     const arrayProductos = obtenerProductos();
@@ -98,7 +98,7 @@ async function renderProductosHavanna(){
            //MARTINEZ
 async function renderProductosMartinez(){
     
-    const infoProductos = await fetch("../assets/productos.json");
+    const infoProductos = await fetch("../js/productos.json");
     const productos = await infoProductos.json();
     guardarProductos(productos);
     const arrayProductos = obtenerProductos();
@@ -119,7 +119,7 @@ async function renderProductosMartinez(){
            //STARBUCS
 async function renderProductosStarbucs(){
     
-    const infoProductos = await fetch("../assets/productos.json");
+    const infoProductos = await fetch("../js/productos.json");
     const productos = await infoProductos.json();
     guardarProductos(productos);
     const arrayProductos = obtenerProductos();
@@ -140,7 +140,7 @@ async function renderProductosStarbucs(){
           //JUAN VALDEZ
 async function renderProductosJuanValdez(){
     
-    const infoProductos = await fetch("../assets/productos.json");
+    const infoProductos = await fetch("../js/productos.json");
     const productos = await infoProductos.json();
     guardarProductos(productos);
     const arrayProductos = obtenerProductos();
@@ -161,15 +161,14 @@ async function renderProductosJuanValdez(){
 
 
 
-//Elemento seleccionado
+//ELEMENTO SELECCIONADO
 
 function seleccionado (id){
     const productos = obtenerProductos();
     return productos.find(x => x.id == id);
 }
 
-//Agregar elemento al carrito
-
+//AGREGAR ELEMENTO AL CATRRITO
 function agregarCarrito(id){
 
     
@@ -239,7 +238,7 @@ function agregarCarrito(id){
           }).showToast();
 }
 
-//Eliminar elemento del carrito
+//ELIMINAR ELEMENTO DEL CARRITO
 
 function eliminarCarrito(id){
     let carritoProductos = obtenerProductosCarrito();

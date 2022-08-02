@@ -186,7 +186,7 @@ body::-webkit-scrollbar-track {
 
 .info {
   height: 140px;
-  background-color: #131313;
+  background-color: #a18262;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -200,13 +200,13 @@ body::-webkit-scrollbar-track {
 
 .info .info1 h3 {
   font-family: "fuente1";
-  color: #036635;
+  color: #000000;
   font-size: 22px;
 }
 
 .info .info1 h4 {
   font-family: "fuente2";
-  color: #036635;
+  color: #000000;
   font-size: 18px;
 }
 

@@ -4,71 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    
     <title>Tienda Café</title>
 </head>
 <body>
-
     <div>
-
-            <nav class="animate__animated animate__fadeInDown navDesktop">
-                <div class="logo animate__animated animate__jackInTheBox">
-                    <!-- LOGO -->
-                    <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
-                </div>
+        <nav class="animate__animated animate__fadeInDown navDesktop">
+            <div class="logo animate__animated animate__jackInTheBox">
+                <!-- LOGO -->
+                <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+            </div>
                 <ul>
                     <a href="./pages/catalogo.html"><li class="botonActivo">Shop</li></a>
                 </ul>
-                <div class="buscadorCarrito buscadorMobile">
-                    <div class="buscador animate__animated animate__fadeInDown">
-                        <i class='bx bx-search-alt-2 iconoBuscador'></i>
-                        <input type="text" placeholder="Buscar" class="buscadorTexto">
-                    </div>
+            <div class="buscadorCarrito buscadorMobile">
+                <div class="buscador animate__animated animate__fadeInDown">
+                    <i class='bx bx-search-alt-2 iconoBuscador'></i>
+                    <input type="text" placeholder="Buscar" class="buscadorTexto">
                 </div>
+            </div>
             </nav>
-
-            
+            <!-- SECCION DE PRODUCTOS DESTACADOS -->
             <section class="productoDestacado">
-
-                    <div class="sliderContenedor">
-                      
-                        <!-- Solo header estatico -->
-        
-                        <div class="sliderItem descripcionProducto animate__animated animate__fadeInLeft">
-                            <div>
-                                <h4>Colombia</h4>
-                                <div class="tituloProducto">
-                                    <h2>Café</h2>
-                                    <h2>Colombiano</h2>
-                                </div>
-                                <h3>Envios a todo el pais</h3>
-                                <h2 class="precio">$2700</h2>
-                                <div class="botones">
-                                    <a href="./pages/catalogo.html">Ver seleccion de granos</a>
-                                </div>
+                <div class="sliderContenedor">      
+                    <!-- HEADER ESTATICO -->
+                    <div class="sliderItem descripcionProducto animate__animated animate__fadeInLeft">
+                        <div>
+                            <h4>Colombia</h4>
+                            <div class="tituloProducto">
+                                <h2>Café</h2>
+                                <h2>Colombiano</h2>
                             </div>
+                            <h3>Envios a todo el pais</h3>
+                            <h2 class="precio">$2700</h2>
+                            <div class="botones">
+                                <a href="./pages/catalogo.html">Ver seleccion de granos</a>
+                            </div>
+                        </div>
                             <div>
                                 <img class=" animate__animated animate__fadeInRight" src="https://http2.mlstatic.com/D_NQ_NP_764395-MLA49534613694_032022-O.webp" alt="">
                             </div>
                 </div>
-        
+                <!-- SECCION DE MARCAS -->
                 <div class="marcas animate__animated animate__fadeInUp">
                     <div class="contenedor">
-                        <img class="marca" src="https://tentulogo.com/wp-content/uploads/2017/08/starbucks-logo.jpg" alt="">
-                        <img class="marca" src="https://i0.wp.com/www.diegocoquillat.com/wp-content/uploads/2012/10/logo-cafe-13.jpg?ssl=1" alt="">
-                        <img class="marca" src="https://us.123rf.com/450wm/seamartini/seamartini1901/seamartini190100426/114520855-dise%C3%B1o-de-icono-de-taza-de-caf%C3%A9-para-men%C3%BA-de-cafeter%C3%ADa-o-bar-etiqueta-de-dise%C3%B1o-de-caf%C3%A9-natural-aisl.jpg?ver=6" alt="">
-                        <img class="marca" src="data:image/png;base64,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" alt="">
+                        <img class="marca" src="https://www.dolce-gusto.com.ar/media/wysiwyg/starbucks.webp" alt="">
+                        <img class="marca" src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/2.0.27/images/logo-negro___400957dfdd11b6f3309d250db883a7df.png" alt="">
+                        <img class="marca" src="https://www.havanna.com.ar/data/upload/producto_galeria/bed63add051b66b89a089055bbf75de4.png" alt="">
                         <img class="marca" src="https://seeklogo.com/images/J/Juan_Valdez_Cafe-logo-9D9A5C862E-seeklogo.com.png" alt="">
                     </div>
                 </div>
         
             </section>
 
+            <!-- SECCION DE PRODUCTO DESTACADO -->
             <section class="destacadoMobile">
-
                 <div class="descripcionProducto animate__animated animate__fadeInLeft">
                     <h4>Colombia</h4>
                     <div class="tituloProducto">
@@ -85,113 +81,48 @@
                     <img class=" animate__animated animate__fadeInRight" src="https://http2.mlstatic.com/D_NQ_NP_764395-MLA49534613694_032022-O.webp" alt="">
                 </div>
     
-            
-    
+                <!-- SECCION DE MARCAS RESPONSIVE -->
                 <div class="marcas animate__animated animate__fadeInUp">
                     <div class="contenedor">
-                        <img class="marca" src="https://tentulogo.com/wp-content/uploads/2017/08/starbucks-logo.jpg" alt="">
-                        <img class="marca" src="https://i0.wp.com/www.diegocoquillat.com/wp-content/uploads/2012/10/logo-cafe-13.jpg?ssl=1" alt="">
-                        <img class="marca" src="https://us.123rf.com/450wm/seamartini/seamartini1901/seamartini190100426/114520855-dise%C3%B1o-de-icono-de-taza-de-caf%C3%A9-para-men%C3%BA-de-cafeter%C3%ADa-o-bar-etiqueta-de-dise%C3%B1o-de-caf%C3%A9-natural-aisl.jpg?ver=6" alt="">
-                        <img class="marca" src="data:image/png;base64,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" alt="">
+                        <img class="marca" src="https://www.dolce-gusto.com.ar/media/wysiwyg/starbucks.webp" alt="">
+                        <img class="marca" src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/2.0.27/images/logo-negro___400957dfdd11b6f3309d250db883a7df.png" alt="">
+                        <img class="marca" src="https://www.havanna.com.ar/data/upload/producto_galeria/bed63add051b66b89a089055bbf75de4.png" alt="">
                         <img class="marca" src="https://seeklogo.com/images/J/Juan_Valdez_Cafe-logo-9D9A5C862E-seeklogo.com.png" alt="">
                     </div>
                 </div>
                 
             </section>
 
-
     </div>
 
-   
-
+    <!-- SECCION DE MARCAS RESPONSIVE -->
     <section class="info"> 
-
         <div class="info1">
             <h3>Envios gratis</h3>
             <h4>en compras superiores a 10k</h4>
         </div>
-
         <div class="info1">
             <h3>Garantia asegurada</h3>
             <h4>compras y envios</h4>
         </div>
-
         <div class="info1">
             <h3>Seleccion</h3>
             <h4>los mejores granos del mercado</h4>
         </div>
-
     </section>
 
-    <!-- Seccion de productos seleccionados -->
-    <section class="destacados">
-
+    <!-- SECCION DE PRODUCTOS SELECCIONADOS -->
+    <section  class="destacados">
         <h3 class="tituloDestacados">Productos seleccionados</h3>
+        <div id="card-container" class="tarjetas">
 
-        <div class="tarjetas">
-
-            <div class="tarjeta">
-                <img src="https://www.tiendajuanvaldez.com/wp-content/uploads/2022/04/Tolima.jpg" alt="">
-                <h3>Café Tolima Juan Valdez</h3>
-                <h4>$ $3490</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_764395-MLA49534613694_032022-O.webp" alt="">
-                <h3>Café De Brasil Gourmet Pedra Azul 1 Kg</h3>
-                <h4>$ 58000</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_685700-MLA49170349890_022022-O.webp" alt="">
-                <h3>Café En Grano Guatemala Bourbon</h3>
-                <h4>$ 2677</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_612530-MLA50135472435_052022-O.webp" alt="">
-                <h3>Café De Especialidad Colombia</h3>
-                <h4>$ 2200</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_804432-MLA49783481471_042022-O.webp" alt="">
-                <h3>Cafe Tostado Costa Rica Grano Molido</h3>
-                <h4>$ 8549</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_919720-MLA49200538756_022022-O.webp" alt="">
-                <h3>Café En Grano Brasil Rosa Amarela</h3>
-                <h4>$ 5567</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_838742-MLA47217497982_082021-O.webp" alt="">
-                <h3>Cafe De Brazil John Joe Doy Pack</h3>
-                <h4>$ 1753</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_808151-MLA50144363926_052022-O.webp" alt="">
-                <h3>Café De Colombia Geisha En Granos</h3>
-                <h4>$ 3300</h4>
-                <a href="./pages/catalogo.html">Ver todos los productos</a>
-            </div>
+            <!-- CARDS GENERADAS DESDE DESTACADOS.JS -->
 
         </div>
 
     </section>
 
     <!-- FOOTER -->
-    
     <footer>
 
         <div class="acerca-redes">
@@ -207,7 +138,7 @@
             <div class="redes">
                 <h3>Redes sociales</h3>
                 <div class="redesSociales">
-                    <i class='bx bxl-instagram' style='color:#ffffff'  ></i>
+                    <i class='bx bxl-instagram' style='color:#ffffff'></i>
                     <i class='bx bxl-facebook-circle'></i>
                     <i class='bx bxl-twitter'></i>
                 </div>
@@ -226,5 +157,9 @@
 
     </footer>
 
+
+
+        <!-- SCRIPTS -->
+        <script src="../js/destacados.js"></script>
 </body>
 </html>

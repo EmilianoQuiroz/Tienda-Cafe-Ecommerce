@@ -45,7 +45,7 @@
         "id": 7,
         "marca": "Havanna",
         "nombre": "ALFAJORES DULCE DE LECHE 9un.",
-        "precio": 14000,
+        "precio": 1400,
         "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2022/05/SuperDDL-300x300.jpg"
     },
     {
@@ -58,7 +58,7 @@
     {
         "id": 9,
         "marca": "Havanna",
-        "nombre": "MINI ALFAJORES MIXTOS DE CHOCOLATE",
+        "nombre": "MINI ALFAJORES MIXTOS",
         "precio": 2300,
         "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2020/07/Mini-Alfajores-surtidos-apilados-300x300.jpg"
     },

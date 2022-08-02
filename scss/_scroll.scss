@@ -20,17 +20,16 @@ body::-webkit-scrollbar-track {
   }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #FD794F;
+    background-color: #036635;
     border-radius: 30px;
-    border: 2px solid #FD794F;
+    border: 2px solid #036635;
 }
 
 body::-webkit-scrollbar-track {
     border-radius: 10px;  
 }
 
-//Destacados 
-
+//DESTACADOS
 
 .tarjetas::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -53,7 +52,7 @@ body::-webkit-scrollbar-track {
 }
 
 .tarjetas::-webkit-scrollbar-thumb {
-    background-color: #FD794F;
+    background-color: #036635;
     border-radius: 20px;
     border: 2px solid #f1f2f3;
 }

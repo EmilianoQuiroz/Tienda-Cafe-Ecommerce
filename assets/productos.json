@@ -1,0 +1,247 @@
+[
+    {
+        "id": 1,
+        "marca": "Martinez",
+        "nombre": "CAFE TIPO ITALIANO 500g",
+        "precio": 5500,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155523-300-300?v=637463658782630000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 2,
+        "marca": "Martinez",
+        "nombre": "CAFE BRASIL 250g",
+        "precio": 2500,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155517-600-600?v=637463658764930000&width=600&height=600&aspect=true"
+    },
+    {
+        "id": 3,
+        "marca": "Martinez",
+        "nombre": "CAFE COLOMBIA 250g",
+        "precio": 2300,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155515-600-600?v=637463658759930000&width=600&height=600&aspect=true"
+    },
+    {
+        "id": 4,
+        "marca": "Martinez",
+        "nombre": "CAFE TOSTADO EN GRANO 1kg",
+        "precio": 10300,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155507-600-600?v=637463658733670000&width=600&height=600&aspect=true"
+    },
+    {
+        "id": 5,
+        "marca": "Martinez",
+        "nombre": "CAFE TOSTADO EN GRANO 500g",
+        "precio": 6000,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155511-600-600?v=637463658748230000&width=600&height=600&aspect=true"
+    },
+    {
+        "id": 6,
+        "marca": "Havanna",
+        "nombre": "MINI HAVANNETS x 400g",
+        "precio": 2200,
+        "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2020/04/havannetMini-300x300.jpg"
+    },
+    {
+        "id": 7,
+        "marca": "Havanna",
+        "nombre": "ALFAJORES DULCE DE LECHE 9un.",
+        "precio": 14000,
+        "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2022/05/SuperDDL-300x300.jpg"
+    },
+    {
+        "id": 8,
+        "marca": "Havanna",
+        "nombre": "ALFAJORES SEMILIA x 9uds",
+        "precio": 2400,
+        "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2022/04/78_Semilia-300x300.jpg"
+    },
+    {
+        "id": 9,
+        "marca": "Havanna",
+        "nombre": "MINI ALFAJORES MIXTOS DE CHOCOLATE",
+        "precio": 2300,
+        "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2020/07/Mini-Alfajores-surtidos-apilados-300x300.jpg"
+    },
+    {
+        "id": 10,
+        "marca": "Havanna",
+        "nombre": "MINI ALFAJORES x 475g",
+        "precio": 2300,
+        "imagen": "https://tienda.havanna.com.ar/wp-content/uploads/2020/07/Minis-de-Chocolate-apilados-300x300.jpg"
+    },
+    {
+        "id": 11,
+        "marca": "Martinez",
+        "nombre": "VASO TERMICO MARTINEZ",
+        "precio": 2250,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/157021-300-300?v=637880627571130000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 12,
+        "marca": "Martinez",
+        "nombre": "MINI ALFAJOR DDL X6",
+        "precio": 1850,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/156840-300-300?v=637792557775130000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 13,
+        "marca": "Martinez",
+        "nombre": "CAFE TOSTADO EN GRANO MOCA 1kg",
+        "precio": 12300,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155510-300-300?v=637463658745100000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 14,
+        "marca": "Martinez",
+        "nombre": "DDL MARTINEZ 400g",
+        "precio": 1900,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/155557-300-300?v=637463658879830000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 15,
+        "marca": "Martinez",
+        "nombre": "CONITO DE CLOCOLATE BLANCO X24",
+        "precio": 3800,
+        "imagen": "https://cafemartinez.vtexassets.com/arquivos/ids/156868-300-300?v=637793466026730000&width=300&height=300&aspect=true"
+    },
+    {
+        "id": 16,
+        "marca": "Starbucs",
+        "nombre": "CAPUCCINO DARK X6",
+        "precio": 989,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/s/t/starbucks_ndg_cappuccino_7613036943376_1_2.png"
+    },
+    {
+        "id": 17,
+        "marca": "Starbucs",
+        "nombre": "CARAMEL MACCHIATO X6",
+        "precio": 989,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/s/t/starbucks_ndg_caramel_macchiato_7613036942720.png"
+    },
+    {
+        "id": 18,
+        "marca": "Starbucs",
+        "nombre": "MADAGASCAR VAINILLA MACCHIATO X6",
+        "precio": 989,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/c/a/caja_frente_vainilla_madagascar.png"
+    },
+    {
+        "id": 19,
+        "marca": "Starbucs",
+        "nombre": "ESPRESSO INTENSO X16",
+        "precio": 1050,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/n/d/ndg_espresso_intenso_7613031526406_2.png"
+    },
+    {
+        "id": 20,
+        "marca": "Starbucs",
+        "nombre": "ESPRESSO X16",
+        "precio": 1050,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/b/6/b67ffacbe8bbe7e47ac62850008ab031bc6d1d52.png"
+    },
+    {
+        "id": 21,
+        "marca": "Starbucs",
+        "nombre": "LUNGO X16",
+        "precio": 22000,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/n/d/ndg_lungo_7501059273245.png"
+    },
+    {
+        "id": 22,
+        "marca": "Starbucs",
+        "nombre": "CORTADO X16",
+        "precio": 995,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/n/d/ndg_cortado_7613032396350.png"
+    },
+    {
+        "id": 23,
+        "marca": "Starbucs",
+        "nombre": "CAFÉ AU LAIT X16",
+        "precio": 995,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/a/a/aa_lait_main.png"
+    },
+    {
+        "id": 24,
+        "marca": "Starbucs",
+        "nombre": "LATTE MACCHIATO",
+        "precio": 995,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/l/a/latte-macchiato-box.png"
+    },
+    {
+        "id": 25,
+        "marca": "Starbucs",
+        "nombre": "CAPPUCCINO",
+        "precio": 995,
+        "imagen": "https://www.dolce-gusto.com.ar/media/catalog/product/cache/a7ed62b12c9d28aa0842b5a9bc7623a5/a/a/aa_capp_main.png"
+    },
+    {
+        "id": 26,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE CUMBRE 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b1cc9f45ac111fc55fac_cafe-cumbre-fuerte-juan-valdez.png"
+    },
+    {
+        "id": 27,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE CUMBRE DESCAFEINADO 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6099671343f3a68265099548_cafe-cumbre-fuerte-descafeinado-juan-valdez.png"
+    },
+    {
+        "id": 26,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE VOLCAN 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095a8b926107f1960b6c6ef_cafe-volcan-juan-valdez.png"
+    },
+    {
+        "id": 27,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE COLINA 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b1ab743d384993e260f5_cafe-colina-balanceado-juan-valdez.png"
+    },
+    {
+        "id": 26,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN VALLE DEL CAUCAN 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b385a162be08a4ce02cc_cafe-origen-valle-del-cauca-juan-valdez.png"
+    },
+    {
+        "id": 27,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN TOLIMAN 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png"
+    },
+    {
+        "id": 26,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN CIERRA NEVADA 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b4270e82e8823f19d173_cafe-origen-sierra-nevada-juan-valdez.png"
+    },
+    {
+        "id": 27,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN SANTANDER 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b4549acbca3585ecc7a2_cafe-origen-santander-juan-valdez.png"
+    },
+    {
+        "id": 26,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN NARIÑO 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b62217701c0652544dba_cafe-origen-narino-juan-valdez.png"
+    },
+    {
+        "id": 27,
+        "marca": "Juan Valdez",
+        "nombre": "CAFE ORIGEN HUILA 250g",
+        "precio": 2200,
+        "imagen": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b64624b7915780a8a64a_cafe-origen-huila-juan-valdez.png"
+    }
+]

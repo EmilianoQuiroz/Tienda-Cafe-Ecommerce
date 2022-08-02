@@ -1,0 +1,30 @@
+.tarjeta{
+    height: 420px;
+    width: 250px;
+    background-color: $color-primarioDos;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-evenly;
+    h3{
+        font-size: 36px;
+        line-height: 83.5%;
+        @extend .titulo;
+    }
+    h4{
+        @extend .subtitulo;
+    }
+    button{
+        width: 138px;
+    }
+    a{
+        color: $color-letras;
+        font-size: 10px;
+        @extend .titulo;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: 3s;
+    }
+}

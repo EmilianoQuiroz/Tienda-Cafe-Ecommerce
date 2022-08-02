@@ -1,0 +1,834 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-button:increment, .body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #036635;
+  border-radius: 30px;
+  border: 2px solid #036635;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.tarjetas::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.tarjetas::-webkit-scrollbar:vertical {
+  width: 7px;
+}
+
+.tarjetas::-webkit-scrollbar-button:increment, .body::-webkit-scrollbar-button {
+  display: none;
+}
+
+.tarjetas::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.tarjetas::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+  /* color of the tracking area */
+}
+
+.tarjetas::-webkit-scrollbar-thumb {
+  background-color: #036635;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.tarjetas::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "fuente1";
+  src: url(../assets/fonts/sf-compact-display-medium.otf);
+}
+
+@font-face {
+  font-family: "fuente2";
+  src: url(../assets/fonts/sf-compact-display-thin.otf);
+}
+
+.titulo, .productoDestacado .descripcionProducto .tituloProducto h2, .productoDestacado .descripcionProducto .precio, .productoDestacado .descripcionProducto a, .boton1, .tarjeta h3, .tarjeta a, footer .acerca-redes .acercaDe h3, footer .acerca-redes .redes h3, footer .ubi-derechos .localizacion h3 {
+  font-family: "Century Gothic";
+  font-weight: 700;
+}
+
+.subtitulo, .productoDestacado .descripcionProducto h4, .productoDestacado .descripcionProducto h3, .tarjeta h4, footer .acerca-redes .acercaDe a, footer .ubi-derechos h3 {
+  font-family: "Century Gothic";
+  font-weight: 400;
+}
+
+.navMobile {
+  display: none;
+}
+
+.productoDestacado .slider {
+  overflow: hidden;
+  margin-top: 90px;
+}
+
+.productoDestacado .slider .sliderContenedor {
+  display: flex;
+  width: 500vw;
+  transition: all 1s ease-in-out;
+}
+
+.productoDestacado .slider .sliderContenedor .sliderItem {
+  width: 100vw;
+}
+
+.productoDestacado .descripcionProducto {
+  margin-left: 30px;
+  animation-duration: 1.5s;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productoDestacado .descripcionProducto h4 {
+  color: #036635;
+  margin-bottom: 5px;
+}
+
+.productoDestacado .descripcionProducto .tituloProducto h2 {
+  line-height: 83.5%;
+  font-size: 100px;
+  color: #131313;
+}
+
+.productoDestacado .descripcionProducto h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #131313;
+}
+
+.productoDestacado .descripcionProducto .precio {
+  color: #131313;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.productoDestacado .descripcionProducto .botones {
+  margin-top: 10px;
+}
+
+.productoDestacado .descripcionProducto a {
+  font-size: 12px;
+  color: #131313;
+}
+
+.productoDestacado .descripcionProducto img {
+  left: 550px;
+  height: 450px;
+}
+
+.productoDestacado .marcas {
+  width: 100%;
+  display: flex;
+  animation-duration: 2s;
+}
+
+.productoDestacado .marcas .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8FAFB;
+  width: 650px;
+  border-radius: 30px;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.productoDestacado .marcas .contenedor .marca {
+  height: 45px;
+  margin: 10px;
+}
+
+.productoDestacado .marcas .contenedor .marca:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.destacadoMobile {
+  display: none;
+}
+
+.info {
+  height: 140px;
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info .info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info .info1 h3 {
+  font-family: "fuente1";
+  color: #036635;
+  font-size: 22px;
+}
+
+.info .info1 h4 {
+  font-family: "fuente2";
+  color: #036635;
+  font-size: 18px;
+}
+
+.destacados .tituloDestacados {
+  font-family: "fuente1";
+  color: #131313;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.destacados .tarjetas {
+  padding: 10px;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.destacados .tarjetas .tarjeta {
+  margin-right: 30px;
+}
+
+.grillas {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 589px;
+  grid-template-areas: "nav1 nav2";
+}
+
+.productos {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.boton1 {
+  padding: 10px;
+  background-color: #036635;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boton1 a {
+  text-decoration: none;
+  color: #131313;
+}
+
+.boton2 {
+  height: 50px;
+  padding: 10px;
+  background-color: #036635;
+  color: #FFFF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.botonActivo {
+  color: #FFFFFF;
+  background-color: #036635;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.botonMarca {
+  color: #FFFFFF;
+  background-color: #131313;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tarjeta {
+  height: 420px;
+  width: 250px;
+  background-color: #F8FAFB;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.tarjeta h3 {
+  font-size: 36px;
+  line-height: 83.5%;
+}
+
+.tarjeta button {
+  width: 138px;
+}
+
+.tarjeta a {
+  color: #131313;
+  font-size: 10px;
+}
+
+.tarjeta img:hover {
+  transform: scale(1.1);
+  transition: 3s;
+}
+
+footer {
+  background-color: #131313;
+  padding: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+footer .acerca-redes {
+  display: flex;
+}
+
+footer .acerca-redes .acercaDe {
+  padding: 10px;
+}
+
+footer .acerca-redes .acercaDe .acercaDe-info {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .acerca-redes .acercaDe h3 {
+  color: #FFFFFF;
+}
+
+footer .acerca-redes .acercaDe a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer .acerca-redes .redes {
+  padding: 10px;
+}
+
+footer .acerca-redes .redes h3 {
+  color: #FFFFFF;
+}
+
+footer .acerca-redes .redes i {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+footer .ubi-derechos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer .ubi-derechos .localizacion {
+  display: flex;
+}
+
+footer .ubi-derechos .localizacion i {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+footer .ubi-derechos .localizacion h3 {
+  color: #FFFFFF;
+}
+
+footer .ubi-derechos h3 {
+  color: #FFFFFF;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  grid-area: "nav1";
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  grid-area: "nav1";
+  width: 100%;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul a li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "fuente1";
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+nav .logo {
+  animation-duration: 2s;
+}
+
+nav .logo img {
+  margin-left: 20px;
+}
+
+nav .buscadorCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav .buscadorCarrito .buscador {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #F8FAFB;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+nav .buscadorCarrito .buscador input {
+  border: none;
+  background-color: #F8FAFB;
+  width: 100px;
+  padding: 5px;
+}
+
+nav .buscadorCarrito .buscador input:focus {
+  outline: none;
+  background-color: #F8FAFB;
+}
+
+nav .buscadorCarrito .buscador .iconoBuscador {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #036635;
+}
+
+nav .buscadorCarrito .iconoCarrito-catalogo {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #131313;
+  cursor: pointer;
+}
+
+.carrito {
+  background-color: #F8FAFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 0.3s;
+  z-index: 2;
+}
+
+.carrito .tuCarrito {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.carrito .tuCarrito h3 {
+  font-size: 20px;
+  font-family: "fuente1";
+}
+
+.carrito .tuCarrito a {
+  color: #131313;
+}
+
+.carrito .tuCarrito i {
+  font-size: 25px;
+  color: #131313;
+  cursor: pointer;
+}
+
+.carrito .totalConfirmar {
+  height: 100px;
+  background-color: #FFFF;
+  width: 90%;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  padding: 20px;
+}
+
+.carrito .totalConfirmar h4 {
+  font-family: "fuente1";
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #131313;
+}
+
+.carrito .totalConfirmar .total {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.carrito .totalConfirmar .total h4 {
+  font-family: "fuente1";
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #131313;
+}
+
+.carrito .totalConfirmar .total h5 {
+  font-family: "fuente1";
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #131313;
+}
+
+.carrito .productosCarrito {
+  height: 500px;
+  overflow-y: scroll;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carrito .elementoAñadido {
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+  width: 90%;
+  background-color: #FFFF;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.carrito .elementoAñadido h3 {
+  font-family: "fuente1";
+}
+
+.carrito .elementoAñadido h4 {
+  font-family: "fuente2";
+}
+
+.carrito .elementoAñadido h5 {
+  font-family: "fuente1";
+}
+
+.carrito .elementoAñadido button {
+  margin-top: 10px;
+  width: 80px;
+}
+
+.carrito .elementoAñadido .cantidad-img {
+  display: flex;
+}
+
+.carrito .elementoAñadido img {
+  height: 100%;
+}
+
+.carrito .elementoAñadido .cantidad {
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.carrito .elementoAñadido .imgCarrito {
+  width: 100%;
+  height: 100px;
+}
+
+.carrito .elementoAñadido i {
+  cursor: pointer;
+  background-color: #036635;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.carritoActivo {
+  right: 0;
+  box-shadow: -8px 0px 20px -13px #000000;
+}
+
+.logoCarrito {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logoCarrito i {
+  font-size: 25px;
+}
+
+.logoCarrito h3 {
+  top: 0;
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.seccionProductos .tituloProductos {
+  font-family: "fuente1";
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.tarjeta {
+  height: 420px;
+  width: 250px;
+  background-color: #F8FAFB;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.tarjeta h3 {
+  font-size: 36px;
+  line-height: 83.5%;
+  font-family: "fuente1";
+}
+
+.tarjeta h4 {
+  font-family: "fuente2";
+}
+
+.tarjeta a {
+  color: #131313;
+  font-size: 10px;
+  font-family: "fuente1";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  height: 90%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.form .tituloForm {
+  font-family: "fuente1";
+  color: lightgray;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.form label {
+  font-family: "fuente1";
+  font-size: 14px;
+  font-weight: 300;
+  color: #131313;
+}
+
+.form .inputForm {
+  margin: 10px 0px;
+  padding: 10px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.form .tarjetasIconos i {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.form .tarjetaInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .sm {
+  width: 30%;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .navMobile {
+    display: unset;
+  }
+  .ocultarNav {
+    display: none;
+  }
+  .grillas {
+    display: flex !important;
+  }
+  .grillas .imgProducto {
+    left: 180px !important;
+    margin-top: 0px !important;
+    top: 319px;
+  }
+  .grillas .imgProducto img {
+    height: 110px !important;
+  }
+  .destacados .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .destacados .tarjetas .tarjeta {
+    margin-bottom: 20px;
+  }
+  .info {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .productos {
+    grid-template-columns: 1fr;
+  }
+  .ocultar {
+    display: none;
+  }
+  nav {
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    top: 0;
+  }
+  nav li {
+    margin-left: 15px !important;
+  }
+  .carrito {
+    height: 100%;
+    width: 350px;
+  }
+  .seccionProductos .tituloProductos {
+    margin-top: 73px;
+  }
+  .productoDestacado {
+    display: none;
+  }
+  .destacadoMobile {
+    display: unset;
+  }
+  .destacadoMobile .imgProducto img {
+    position: absolute;
+    height: 110px !important;
+    left: 180px !important;
+    margin-top: 0px !important;
+    top: 288px;
+  }
+  .destacadoMobile .descripcionProducto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 80px !important;
+    animation-duration: 1.5s;
+    justify-content: flex-start;
+  }
+  .destacadoMobile .descripcionProducto h4 {
+    color: #036635;
+    margin-bottom: 5px;
+    font-family: "fuente2";
+  }
+  .destacadoMobile .descripcionProducto .tituloProducto h2 {
+    line-height: 83.5%;
+    font-size: 100px;
+    color: #131313;
+    font-family: "fuente1";
+  }
+  .destacadoMobile .descripcionProducto h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #131313;
+    font-family: "fuente2";
+  }
+  .destacadoMobile .descripcionProducto .precio {
+    color: #131313;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: "fuente1";
+  }
+  .destacadoMobile .descripcionProducto .botones {
+    margin-top: 10px;
+  }
+  .destacadoMobile .descripcionProducto a {
+    font-size: 12px;
+    color: #131313;
+  }
+  .destacadoMobile .marcas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .destacadoMobile .marcas .contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 90% !important;
+    height: 200px !important;
+    flex-wrap: wrap;
+    background-color: #F8FAFB;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+}

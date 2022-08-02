@@ -1,0 +1,161 @@
+//Estilo de titulo y subtitulo
+
+.titulo{
+    font-family: map-get($fuenteTitulos , fuente);
+    font-weight: map-get($fuenteTitulos , grosor);
+}
+.subtitulo{
+    font-family: map-get($fuenteSubtitulos , fuente);
+    font-weight: map-get($fuenteSubtitulos , grosor);
+}
+
+
+//Nav mobile
+
+.navMobile{
+    display: none;
+}
+
+
+//Producto destacado
+
+.productoDestacado{
+    .slider{
+        overflow: hidden;
+        margin-top: 90px;
+        .sliderContenedor{
+            display: flex;
+            width: 500vw;
+            transition: all 1s ease-in-out;
+            .sliderItem{
+                width: 100vw;
+            }
+        }
+    }
+    .descripcionProducto{
+        margin-left: 30px;
+        animation-duration: 1.5s;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h4{
+            color: $color-secundario;
+            margin-bottom: 5px;
+            @extend .subtitulo;
+        }
+        .tituloProducto{
+            h2{
+                line-height: 83.5%;
+                font-size: 100px;
+                color: $color-letras;
+                @extend .titulo;
+            }
+        }
+        h3{
+            font-size: 22px;
+            margin-top: 10px;
+            color: $color-letras;
+            @extend .subtitulo;
+        }
+        .precio{
+            color: $color-letras;
+            font-size: 15px;
+            margin-top: 5px;
+            @extend .titulo;
+        }
+        .botones{
+            margin-top: 10px;
+        }
+        a{
+            font-size: 12px;
+            color: $color-letras;
+            @extend .titulo;
+        }
+        img{
+            left: 550px;
+            height: 450px;
+        }
+    }
+    .marcas{
+        width: 100%;
+        display: flex;
+        animation-duration: 2s;
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-primarioDos;
+            width: 650px;
+            border-radius: 30px;
+            height: 100px;
+            margin-bottom: 50px;
+            margin-left: 30px;
+            .marca{
+                height: 45px;
+                margin: 10px;
+            }
+            .marca:hover{
+                transform: scale(1.1);
+                transition: 1s;
+            }
+            
+        }
+    }
+}
+
+.destacadoMobile{
+    display: none;
+}
+
+//Info
+
+.info{
+    height: 140px;
+    background-color: $color-letras;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .info1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            font-family: "fuente1";
+            color: $color-secundario;
+            font-size: 22px;
+        }
+        h4{
+            font-family: "fuente2";
+            color: $color-secundario;
+            font-size: 18px;
+        }
+    }
+}
+
+//Productos destacados
+
+.destacados{
+    .tituloDestacados{
+        font-family: "fuente1";
+        color: $color-letras;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .tarjetas{
+        padding: 10px;
+        overflow-x: scroll;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .tarjeta{
+            margin-right: 30px;
+        }
+    }
+}
+
+
+
+
+

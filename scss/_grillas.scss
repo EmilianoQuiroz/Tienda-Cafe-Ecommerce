@@ -1,0 +1,15 @@
+.grillas{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 589px;
+    grid-template-areas: "nav1 nav2";
+}
+
+.productos{
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-row-gap: 20px;
+    justify-items: center;
+}

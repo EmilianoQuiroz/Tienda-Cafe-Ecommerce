@@ -1,0 +1,34 @@
+.boton1{
+    padding: 10px;
+    background-color: $color-secundario;
+    border: none;
+    color: $color-primario;
+    border-radius: 10px;
+    cursor: pointer;
+    @extend .titulo;
+    a{
+        text-decoration: none;
+        color: $color-letras;
+    }
+}
+.boton2{
+    height: 50px;
+    padding: 10px;
+    background-color: #036635;
+    color: #FFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonActivo{
+    color: $color-primario;
+    background-color: $color-secundario;
+    padding: 10px;
+    border-radius: 20px;
+}
+.botonMarca{
+    color: $color-primario;
+    background-color: $color-letras;
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,147 @@
+/* Mobile */
+
+@media screen and (max-width: 480px){
+
+.navMobile{
+    display: unset;
+}
+
+.ocultarNav{
+    display: none;
+}
+
+    .grillas{
+        display: flex!important;
+        .imgProducto{
+            left: 180px!important;
+            margin-top: 0px!important;
+            top: 319px;
+            img{
+                height: 110px!important;
+                
+            }
+        }
+    }
+
+    .destacados{
+        .tarjetas{
+            flex-direction: column;
+            align-items: center;
+            .tarjeta{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .info{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    .productos{
+        grid-template-columns: 1fr;
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+    nav{
+        position: fixed;
+        width: 100%;
+        justify-content: space-around;
+        background-color: $color-primario;
+        top: 0;
+        li{
+            margin-left: 15px!important;
+        }
+    }
+    .carrito{
+        height: 100%;
+        width: 350px;
+    }
+
+    .seccionProductos{
+        .tituloProductos{
+            margin-top: 73px;
+        }
+    }
+
+    //Producto destacado
+
+    .productoDestacado{
+        display: none;
+    }
+    .destacadoMobile{
+        display: unset;
+        .imgProducto{
+
+            img{
+                position: absolute;
+                height: 110px!important;
+                left: 180px!important;
+                margin-top: 0px!important;
+                top: 288px;
+            }
+        }
+        .descripcionProducto{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            margin-top: 80px!important;
+            animation-duration: 1.5s;
+            justify-content: flex-start;
+                h4{
+                    color: #FD794F;
+                    margin-bottom: 5px;
+                    font-family: "fuente2";
+                }
+                .tituloProducto{
+                    h2{
+                        line-height: 83.5%;
+                        font-size: 100px;
+                        color: $color-letras;
+                        font-family: "fuente1";
+                    }
+                }
+                h3{
+                    font-size: 22px;
+                    margin-top: 10px;
+                    color: $color-letras;
+                    font-family: "fuente2";
+                }
+                .precio{
+                    color: $color-letras;
+                    font-size: 15px;
+                    margin-top: 5px;
+                    font-family: "fuente1";
+                }
+                .botones{
+                    margin-top: 10px;
+                }
+                a{
+                    font-size: 12px;
+                    color: $color-letras;
+                }
+        }    
+        .marcas{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            .contenedor{
+                display: flex;
+                justify-content: space-around;
+                width: 90% !important;
+                height: 200px!important;
+                flex-wrap: wrap;
+                background-color: $color-primarioDos;
+                border-radius: 30px;
+                margin-bottom: 30px;
+                padding: 10px;
+            }
+    }
+ }
+
+}
+

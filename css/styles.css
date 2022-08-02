@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -273,7 +274,7 @@ body::-webkit-scrollbar-track {
   color: #FFFFFF;
   background-color: #036635;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 100%;
 }
 
 .botonMarca {
@@ -281,6 +282,10 @@ body::-webkit-scrollbar-track {
   background-color: #131313;
   padding: 10px;
   border-radius: 20px;
+}
+
+.botonMarca:hover {
+  background-color: #036635;
 }
 
 .tarjeta {
@@ -301,6 +306,11 @@ body::-webkit-scrollbar-track {
 
 .tarjeta button {
   width: 138px;
+}
+
+.tarjeta button:hover {
+  background-color: #08a054;
+
 }
 
 .tarjeta a {
@@ -708,6 +718,12 @@ nav .buscadorCarrito .iconoCarrito-catalogo {
 .form .sm {
   width: 30%;
 }
+
+
+/*
+FORMULARIO DE CONTACTO
+*/
+
 
 /* Mobile */
 @media screen and (max-width: 480px) {

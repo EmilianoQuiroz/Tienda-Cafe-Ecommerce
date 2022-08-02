@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+ 
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <title>Shop</title>
+</head>
+
+
+<body class="body-catalogo">
+
+    <nav class="animate__animated animate__fadeInDown navDesktop">
+        <div class="logo animate__animated animate__jackInTheBox">
+            <a href="./index.html"><img src="../assets/img/logo.png" alt=""></a>
+        </div>
+        <ul class="ocultar">
+            <a href="./catalogo.html"><li class="botonActivo">Shop</li></a>
+            <a href="#havanna"><li class="botonMarca">Havanna</li></a>
+            <a href="#martinez"><li class="botonMarca">Martinez</li></a>
+            <a href="#starbucs"><li class="botonMarca">Starbucs</li></a>
+            <a href="#juanvaldez"><li class="botonMarca">J. valdez</li></a>
+            <a href="#"><li class="botonMarca">Contactanos</li></a>
+        </ul>
+        <div class="buscadorCarrito">
+            <div class="buscador animate__animated animate__fadeInDown">
+                <i class='bx bx-search-alt-2 iconoBuscador'></i>
+                <input type="text" placeholder="Buscar" class="buscadorTexto">
+            </div>
+
+            <div class="logoCarrito">
+                <i id="abrirCarrito" class='bx bx-cart-download animate__animated animate__fadeInDown iconoCarrito-catalogo'></i>
+                <h3 id="contadorCarrito"></h3>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="carrito"  id="carrito">
+        
+            <div class="tuCarrito">
+                <h3>Tu carrito de compras</h3>
+                <i class='bx bx-x-circle' id="cerrarCarrito"></i>
+            </div>
+    
+            <div class="productosCarrito" id="productosCarrito">
+                
+            </div>
+    
+            <div class="totalConfirmar" id="totalConfirmar">
+                
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- FORMULARIO DE CONTACTO -->
+   
+    
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="acerca-redes">
+
+            <div class="acercaDe">
+                <h3>Tienda Café</h3>
+                <div class="acercaDe-info">
+                    <a href="">Trabaja con nosotros</a>
+                    <a href="">Donde podes encontrarnos</a>
+                </div>
+            </div>
+
+            <div class="redes">
+                <h3>Redes sociales</h3>
+                <div class="redesSociales">
+                    <i class='bx bxl-instagram' style='color:#ffffff'  ></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ubi-derechos">
+            <div class="localizacion">
+                <i class='bx bxs-location-plus'></i>
+                <h3>Argentina</h3>
+            </div>
+
+            <h3>© 2022 Tienda Café - Todos los derechos reservados.</h3>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../assets/main.js"></script>
+
+
+    <!-- FORMULARIO JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>         
+
+
+
+
+
+

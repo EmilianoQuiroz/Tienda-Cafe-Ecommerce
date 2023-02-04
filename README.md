@@ -9,7 +9,7 @@ Ecommerce realizado con las tecnologias:
   - SweetAlert
   - Toastify
 
- - Desktop:
+ ## Desktop:
 
 ![image](https://user-images.githubusercontent.com/78452543/216781755-9debbc2c-02a7-487e-a946-e3ff41d5d0ef.png)
 
